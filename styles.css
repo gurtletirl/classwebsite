@@ -1,0 +1,66 @@
+.logo {
+  height: 4em;
+  width: 12em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 50px;
+    padding-block: 20px;
+    border-bottom:#000000 2px solid;
+}
+
+nav {
+    display: flex;
+    gap: 100px;
+    padding-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color:gray;
+}
+
+.hero-image {
+    display: flex;
+    width: 35%;
+    aspect-ratio: 1.5/1;
+    border:#000000 2px solid;
+    margin-left: auto;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding-inline: 50px;
+    padding-block: 50px;
+    border-bottom:#000000 2px solid;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 50px;
+    padding-block: 50px;
+}
+
+.info-cards img {
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1.5/1;
+}
+
+.info-card {
+    max-width: 30%;
+}
