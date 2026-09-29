@@ -75,6 +75,10 @@ body {
     line-height: 1.5;
 }
 
+.resourcetable, th, td {
+    border: #000000 2px solid;
+}
+
 /*time for phones who even uses a phone man why do i have to code this everyone throw out their phone*/
 @media (max-width: 700px) {
   .hero {
