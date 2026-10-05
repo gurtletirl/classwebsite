@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <script src="script.js" defer></script>
         <link rel="stylesheet" href="styles.css">
         <title>All About Otters</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,6 +25,13 @@
             <div class="hero-text">
                 <h1>All About Otters</h1>
                 <p>Here you can learn all about my favorite animal, the otter! You can find out information about different species, their habitats, and access other otter-ly helpful resources from the web!<br> From their playful river slides to their famous sea-otter hand-holding habits, we dive deep into the fascinating world of these charismatic semi-aquatic mammals.</p>
+                <h2>What kind of otter are you?</h2>
+                <form id="otter-form">
+                    <label for="user-name">Enter your name</label>
+                    <input type="text" id="user-name" autocomplete="given-name"required>
+                    <button type="submit">Submit</button>
+                </form>
+                <p id="otter-result" aria-live="polite"></p>
             </div>
             <figure class="hero-image">
                 <img src="images/otter-hero.png" alt="Otter Image">
